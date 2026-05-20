@@ -1,0 +1,35 @@
+{
+	"name": "Excel2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "storageproyct",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "dim_tipo_siniestro",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "modelo_siniestros.xlsx",
+				"container": "proyect"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": [
+			{
+				"name": "id_zona",
+				"type": "String"
+			},
+			{
+				"name": "zona",
+				"type": "String"
+			},
+			{
+				"name": "tipo_zona",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
