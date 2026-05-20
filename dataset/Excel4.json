@@ -8,10 +8,9 @@
 		"annotations": [],
 		"type": "Excel",
 		"typeProperties": {
-			"sheetName": "dim_tiempo",
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "modelo_siniestros.xlsx",
+				"fileName": "modelo_powerbi_siniestros_AVANCE2_DATOS_OFICIALES_FINAL.xlsx",
 				"container": "proyect"
 			},
 			"firstRowAsHeader": true
