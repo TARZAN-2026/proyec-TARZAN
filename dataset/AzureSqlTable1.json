@@ -39,7 +39,7 @@
 		],
 		"typeProperties": {
 			"schema": "dbo",
-			"table": "dim_tiempo"
+			"table": "dim_provincia"
 		}
 	}
 }
