@@ -1,0 +1,46 @@
+{
+	"name": "Excel1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "storageproyct",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "dim_tiempo",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "modelo_powerbi_siniestros_AVANCE2_DATOS_OFICIALES_FINAL.xlsx",
+				"container": "proyect"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": [
+			{
+				"name": "id_tiempo",
+				"type": "String"
+			},
+			{
+				"name": "fecha",
+				"type": "String"
+			},
+			{
+				"name": "anio",
+				"type": "String"
+			},
+			{
+				"name": "trimestre",
+				"type": "String"
+			},
+			{
+				"name": "mes",
+				"type": "String"
+			},
+			{
+				"name": "mes_nombre",
+				"type": "String"
+			}
+		]
+	}
+}
