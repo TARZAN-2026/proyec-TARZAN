@@ -182,7 +182,7 @@
 				],
 				"typeProperties": {
 					"schema": "dbo",
-					"table": "dim_tiempo"
+					"table": "dim_provincia"
 				}
 			},
 			"dependsOn": [
@@ -201,7 +201,7 @@
 				"annotations": [],
 				"type": "Excel",
 				"typeProperties": {
-					"sheetName": "dim_tiempo",
+					"sheetName": "dim_provincia",
 					"location": {
 						"type": "AzureBlobStorageLocation",
 						"fileName": "modelo_powerbi_siniestros_AVANCE2_DATOS_OFICIALES_FINAL.xlsx",
@@ -247,7 +247,7 @@
 			"properties": {
 				"activities": [
 					{
-						"name": "dim_tiempo",
+						"name": "dim_provincia",
 						"type": "Copy",
 						"dependsOn": [],
 						"policy": {
