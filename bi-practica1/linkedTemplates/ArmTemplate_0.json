@@ -182,7 +182,7 @@
 				],
 				"typeProperties": {
 					"schema": "dbo",
-					"table": "dim_zona"
+					"table": "dim_tipo_siniestro"
 				}
 			},
 			"dependsOn": [
@@ -201,7 +201,7 @@
 				"annotations": [],
 				"type": "Excel",
 				"typeProperties": {
-					"sheetName": "dim_zona",
+					"sheetName": "dim_tipo_siniestro",
 					"location": {
 						"type": "AzureBlobStorageLocation",
 						"fileName": "modelo_powerbi_siniestros_AVANCE2.xlsx",
@@ -247,7 +247,7 @@
 			"properties": {
 				"activities": [
 					{
-						"name": "dim_zona",
+						"name": "dim_tipo_siniestro",
 						"type": "Copy",
 						"dependsOn": [],
 						"policy": {
