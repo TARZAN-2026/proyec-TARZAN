@@ -182,7 +182,7 @@
 				],
 				"typeProperties": {
 					"schema": "dbo",
-					"table": "dim_condicion"
+					"table": "hechos_siniestros"
 				}
 			},
 			"dependsOn": [
@@ -201,7 +201,7 @@
 				"annotations": [],
 				"type": "Excel",
 				"typeProperties": {
-					"sheetName": "dim_condicion",
+					"sheetName": "hechos_siniestros",
 					"location": {
 						"type": "AzureBlobStorageLocation",
 						"fileName": "modelo_powerbi_siniestros_AVANCE2.xlsx",
@@ -247,7 +247,7 @@
 			"properties": {
 				"activities": [
 					{
-						"name": "dim_condicion",
+						"name": "hechos_siniestros",
 						"type": "Copy",
 						"dependsOn": [],
 						"policy": {
