@@ -39,7 +39,7 @@
 		],
 		"typeProperties": {
 			"schema": "dbo",
-			"table": "dim_canton"
+			"table": "dim_zona"
 		}
 	}
 }
