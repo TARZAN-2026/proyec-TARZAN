@@ -63,7 +63,7 @@
 			"properties": {
 				"activities": [
 					{
-						"name": "dim_causa",
+						"name": "dim_condicion",
 						"type": "Copy",
 						"dependsOn": [],
 						"policy": {
@@ -168,7 +168,7 @@
 				],
 				"typeProperties": {
 					"schema": "dbo",
-					"table": "dim_causa"
+					"table": "dim_condicion"
 				}
 			},
 			"dependsOn": [
@@ -187,7 +187,7 @@
 				"annotations": [],
 				"type": "Excel",
 				"typeProperties": {
-					"sheetName": "dim_causa",
+					"sheetName": "dim_condicion",
 					"location": {
 						"type": "AzureBlobStorageLocation",
 						"fileName": "modelo_powerbi_siniestros_AVANCE2.xlsx",
