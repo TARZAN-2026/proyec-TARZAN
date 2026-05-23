@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "dim_zona",
+				"name": "dim_tipo_siniestro",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
