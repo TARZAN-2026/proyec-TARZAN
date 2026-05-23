@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "dim_condicion",
+				"name": "hechos_siniestros",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
