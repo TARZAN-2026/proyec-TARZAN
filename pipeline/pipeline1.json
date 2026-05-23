@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "dim_canton",
+				"name": "dim_tiempo",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
