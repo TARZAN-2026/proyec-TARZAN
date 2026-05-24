@@ -39,7 +39,7 @@
 		],
 		"typeProperties": {
 			"schema": "dbo",
-			"table": "hechos_siniestros"
+			"table": "Dim_Tiempo"
 		}
 	}
 }
