@@ -39,7 +39,7 @@
 		],
 		"typeProperties": {
 			"schema": "dbo",
-			"table": "Dim_Tiempo"
+			"table": "Dim_Vehiculo"
 		}
 	}
 }
