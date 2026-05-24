@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Dim_Tiempo",
+				"name": "Dim_Vehiculo",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
