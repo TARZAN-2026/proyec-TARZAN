@@ -63,7 +63,7 @@
 			"properties": {
 				"activities": [
 					{
-						"name": "Dim_Vehiculo",
+						"name": "Dim_TipoSiniestro",
 						"type": "Copy",
 						"dependsOn": [],
 						"policy": {
@@ -168,7 +168,7 @@
 				],
 				"typeProperties": {
 					"schema": "dbo",
-					"table": "Dim_Vehiculo"
+					"table": "Dim_TipoSiniestro"
 				}
 			},
 			"dependsOn": [
@@ -270,7 +270,7 @@
 				"annotations": [],
 				"type": "Excel",
 				"typeProperties": {
-					"sheetName": "Dim_Vehiculo",
+					"sheetName": "Dim_tipoSiniestro",
 					"location": {
 						"type": "AzureBlobStorageLocation",
 						"fileName": "siniestros.xlsx",
