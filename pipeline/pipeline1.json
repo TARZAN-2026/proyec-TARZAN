@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "hechos_siniestros",
+				"name": "Dim_Tiempo",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
@@ -40,7 +40,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "Excel1",
+						"referenceName": "Excel2",
 						"type": "DatasetReference"
 					}
 				],
