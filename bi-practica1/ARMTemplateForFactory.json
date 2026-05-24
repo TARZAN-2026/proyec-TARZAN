@@ -63,7 +63,7 @@
 			"properties": {
 				"activities": [
 					{
-						"name": "hechos_siniestros",
+						"name": "Dim_Tiempo",
 						"type": "Copy",
 						"dependsOn": [],
 						"policy": {
@@ -100,7 +100,7 @@
 						},
 						"inputs": [
 							{
-								"referenceName": "Excel1",
+								"referenceName": "Excel2",
 								"type": "DatasetReference",
 								"parameters": {}
 							}
@@ -121,7 +121,7 @@
 				"lastPublishTime": "2026-05-18T02:54:58Z"
 			},
 			"dependsOn": [
-				"[concat(variables('factoryId'), '/datasets/Excel1')]",
+				"[concat(variables('factoryId'), '/datasets/Excel2')]",
 				"[concat(variables('factoryId'), '/datasets/AzureSqlTable1')]"
 			]
 		},
@@ -168,62 +168,11 @@
 				],
 				"typeProperties": {
 					"schema": "dbo",
-					"table": "hechos_siniestros"
+					"table": "Dim_Tiempo"
 				}
 			},
 			"dependsOn": [
 				"[concat(variables('factoryId'), '/linkedServices/AzureSqlDatabase1')]"
-			]
-		},
-		{
-			"name": "[concat(parameters('factoryName'), '/Excel1')]",
-			"type": "Microsoft.DataFactory/factories/datasets",
-			"apiVersion": "2018-06-01",
-			"properties": {
-				"linkedServiceName": {
-					"referenceName": "storageproyct",
-					"type": "LinkedServiceReference"
-				},
-				"annotations": [],
-				"type": "Excel",
-				"typeProperties": {
-					"sheetName": "hechos_siniestros",
-					"location": {
-						"type": "AzureBlobStorageLocation",
-						"fileName": "modelo_powerbi_siniestros_AVANCE2.xlsx",
-						"container": "proyect"
-					},
-					"firstRowAsHeader": true
-				},
-				"schema": [
-					{
-						"name": "id_tiempo",
-						"type": "String"
-					},
-					{
-						"name": "fecha",
-						"type": "String"
-					},
-					{
-						"name": "anio",
-						"type": "String"
-					},
-					{
-						"name": "trimestre",
-						"type": "String"
-					},
-					{
-						"name": "mes",
-						"type": "String"
-					},
-					{
-						"name": "mes_nombre",
-						"type": "String"
-					}
-				]
-			},
-			"dependsOn": [
-				"[concat(variables('factoryId'), '/linkedServices/storageproyct')]"
 			]
 		},
 		{
@@ -308,6 +257,32 @@
 				}
 			},
 			"dependsOn": []
+		},
+		{
+			"name": "[concat(parameters('factoryName'), '/Excel2')]",
+			"type": "Microsoft.DataFactory/factories/datasets",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"linkedServiceName": {
+					"referenceName": "storageproyct",
+					"type": "LinkedServiceReference"
+				},
+				"annotations": [],
+				"type": "Excel",
+				"typeProperties": {
+					"sheetName": "Dim_Tiempo",
+					"location": {
+						"type": "AzureBlobStorageLocation",
+						"fileName": "siniestros.xlsx",
+						"container": "proyect"
+					},
+					"firstRowAsHeader": true
+				},
+				"schema": []
+			},
+			"dependsOn": [
+				"[concat(variables('factoryId'), '/linkedServices/storageproyct')]"
+			]
 		}
 	]
 }
