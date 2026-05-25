@@ -63,7 +63,7 @@
 			"properties": {
 				"activities": [
 					{
-						"name": "Dim_Edad",
+						"name": "Dim_Servicio",
 						"type": "Copy",
 						"dependsOn": [],
 						"policy": {
@@ -168,7 +168,7 @@
 				],
 				"typeProperties": {
 					"schema": "dbo",
-					"table": "Dim_Edad"
+					"table": "Dim_Servicio"
 				}
 			},
 			"dependsOn": [
@@ -270,7 +270,7 @@
 				"annotations": [],
 				"type": "Excel",
 				"typeProperties": {
-					"sheetName": "Dim_edad",
+					"sheetName": "Dim_Servicio",
 					"location": {
 						"type": "AzureBlobStorageLocation",
 						"fileName": "siniestros.xlsx",
