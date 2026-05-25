@@ -204,7 +204,7 @@
 					"sheetName": "th_siniestralidad",
 					"location": {
 						"type": "AzureBlobStorageLocation",
-						"fileName": "siniestros (1).xlsx",
+						"fileName": "siniestros.xlsx",
 						"container": "proyect"
 					},
 					"firstRowAsHeader": true
