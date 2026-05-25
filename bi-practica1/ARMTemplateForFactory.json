@@ -63,7 +63,7 @@
 			"properties": {
 				"activities": [
 					{
-						"name": "Dim_Geografia",
+						"name": "Dim_Causa",
 						"type": "Copy",
 						"dependsOn": [],
 						"policy": {
@@ -168,7 +168,7 @@
 				],
 				"typeProperties": {
 					"schema": "dbo",
-					"table": "Dim_Geografia"
+					"table": "Dim_Causa"
 				}
 			},
 			"dependsOn": [
@@ -270,7 +270,7 @@
 				"annotations": [],
 				"type": "Excel",
 				"typeProperties": {
-					"sheetName": "Dim_Geografia",
+					"sheetName": "Dim_Causa",
 					"location": {
 						"type": "AzureBlobStorageLocation",
 						"fileName": "siniestros.xlsx",
