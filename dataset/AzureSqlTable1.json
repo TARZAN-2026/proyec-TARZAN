@@ -39,7 +39,7 @@
 		],
 		"typeProperties": {
 			"schema": "dbo",
-			"table": "th_siniestralidad"
+			"table": "Dim_Tiempo"
 		}
 	}
 }
