@@ -182,7 +182,7 @@
 				],
 				"typeProperties": {
 					"schema": "dbo",
-					"table": "Dim_Servicio"
+					"table": "Dim_Geografia"
 				}
 			},
 			"dependsOn": [
@@ -201,7 +201,7 @@
 				"annotations": [],
 				"type": "Excel",
 				"typeProperties": {
-					"sheetName": "Dim_Servicio",
+					"sheetName": "Dim_Geografia",
 					"location": {
 						"type": "AzureBlobStorageLocation",
 						"fileName": "SINIESTRALIDAD.xlsx",
@@ -222,7 +222,7 @@
 			"properties": {
 				"activities": [
 					{
-						"name": "Dim_Servicio",
+						"name": "Dim_Geografia",
 						"type": "Copy",
 						"dependsOn": [],
 						"policy": {
