@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Dim_edad",
+				"name": "Dim_Servicio",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
