@@ -63,7 +63,7 @@
 			"properties": {
 				"activities": [
 					{
-						"name": "Copy data1",
+						"name": "Dim_Tiempo",
 						"type": "Copy",
 						"dependsOn": [],
 						"policy": {
@@ -168,7 +168,7 @@
 				],
 				"typeProperties": {
 					"schema": "dbo",
-					"table": "th_siniestralidad"
+					"table": "Dim_Tiempo"
 				}
 			},
 			"dependsOn": [
@@ -187,10 +187,10 @@
 				"annotations": [],
 				"type": "Excel",
 				"typeProperties": {
-					"sheetName": "th_siniestralidad",
+					"sheetName": "Dim_Tiempo",
 					"location": {
 						"type": "AzureBlobStorageLocation",
-						"fileName": "siniestros.xlsx",
+						"fileName": "SINIESTRALIDAD.xlsx",
 						"container": "proyect"
 					},
 					"firstRowAsHeader": true
