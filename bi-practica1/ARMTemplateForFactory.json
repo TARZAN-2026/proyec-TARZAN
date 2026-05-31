@@ -63,7 +63,7 @@
 			"properties": {
 				"activities": [
 					{
-						"name": "Dim_Tiempo",
+						"name": "Dim_tipoSiniestro",
 						"type": "Copy",
 						"dependsOn": [],
 						"policy": {
@@ -168,7 +168,7 @@
 				],
 				"typeProperties": {
 					"schema": "dbo",
-					"table": "Dim_Tiempo"
+					"table": "Dim_tipoSiniestro"
 				}
 			},
 			"dependsOn": [
@@ -187,7 +187,7 @@
 				"annotations": [],
 				"type": "Excel",
 				"typeProperties": {
-					"sheetName": "Dim_Tiempo",
+					"sheetName": "Dim_tipoSiniestro",
 					"location": {
 						"type": "AzureBlobStorageLocation",
 						"fileName": "SINIESTRALIDAD.xlsx",
