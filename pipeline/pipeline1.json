@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Dim_Causa",
+				"name": "th_siniestralidad",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
