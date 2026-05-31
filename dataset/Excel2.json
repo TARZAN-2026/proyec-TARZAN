@@ -8,7 +8,7 @@
 		"annotations": [],
 		"type": "Excel",
 		"typeProperties": {
-			"sheetName": "Dim_Causa",
+			"sheetName": "th_siniestralidad",
 			"location": {
 				"type": "AzureBlobStorageLocation",
 				"fileName": "SINIESTRALIDAD.xlsx",
