@@ -8,10 +8,10 @@
 		"annotations": [],
 		"type": "Excel",
 		"typeProperties": {
-			"sheetName": "th_siniestralidad",
+			"sheetName": "Dim_Tiempo",
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "siniestros.xlsx",
+				"fileName": "SINIESTRALIDAD.xlsx",
 				"container": "proyect"
 			},
 			"firstRowAsHeader": true
