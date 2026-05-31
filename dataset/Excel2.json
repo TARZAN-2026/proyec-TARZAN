@@ -8,7 +8,7 @@
 		"annotations": [],
 		"type": "Excel",
 		"typeProperties": {
-			"sheetName": "Dim_tipoSiniestro",
+			"sheetName": "Dim_Vehiculo",
 			"location": {
 				"type": "AzureBlobStorageLocation",
 				"fileName": "SINIESTRALIDAD.xlsx",
