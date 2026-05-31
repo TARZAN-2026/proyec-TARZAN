@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Dim_Servicio",
+				"name": "Dim_Geografia",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
